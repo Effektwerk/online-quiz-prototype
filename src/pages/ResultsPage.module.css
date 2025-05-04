@@ -1,0 +1,11 @@
+/* --- ResultsPage.module.css --- */
+.resultsCard { max-width: 500px; margin: 2rem auto; text-align: center; padding: 2rem; }
+.resultsCard h2 { color: var(--primary-accent); margin-bottom: 1.5rem; }
+.scoreDisplay { margin-bottom: 1rem; font-size: 1.4rem; }
+.scoreValue { font-weight: bold; font-size: 1.8rem; color: var(--text-color); }
+.summary { margin-bottom: 2rem; color: #4b5563; }
+.actionButtons { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+@media (min-width: 600px) { .actionButtons { flex-direction: row; justify-content: center; } }
+.actionButtons a { text-decoration: none; width: 80%; }
+@media (min-width: 600px) { .actionButtons a { width: auto; } }
+.actionButtons button { width: 100%; }

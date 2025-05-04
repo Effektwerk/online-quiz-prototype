@@ -1,0 +1,6 @@
+/* --- Layout.module.css (Optional) --- */
+.layout { display: flex; flex-direction: column; min-height: 100vh; }
+.header { background-color: var(--secondary-accent); padding: 1rem; text-align: center; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+.header h1 { color: var(--primary-accent); margin: 0; font-size: 1.8rem; }
+.mainContent { flex-grow: 1; padding: 1rem; }
+.footer { text-align: center; padding: 1rem; background-color: #f0f0f0; font-size: 0.8rem; color: #777; }

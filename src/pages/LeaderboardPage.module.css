@@ -1,0 +1,11 @@
+/* --- LeaderboardPage.module.css --- */
+.leaderboardCard { max-width: 600px; margin: 2rem auto; padding: 2rem; }
+.leaderboardCard h2 { text-align: center; color: var(--primary-accent); margin-bottom: 0.5rem;}
+.leaderboardCard p { text-align: center; color: #6b7280; margin-bottom: 1.5rem;}
+.leaderboardTable { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+.leaderboardTable th, .leaderboardTable td { padding: 10px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
+.leaderboardTable th { background-color: #f3f4f6; font-weight: 600; }
+.leaderboardTable tbody tr:last-child td { border-bottom: none; }
+.leaderboardTable td:first-child { font-weight: bold; text-align: center; width: 15%;}
+.leaderboardTable td:last-child { font-weight: bold; text-align: right; width: 25%;}
+.navButtons { text-align: center; margin-top: 1rem; }

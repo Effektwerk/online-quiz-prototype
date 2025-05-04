@@ -1,0 +1,44 @@
+/* --- Button.module.css --- */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--border-radius);
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  font-size: 1rem;
+}
+
+.primary {
+  background-color: var(--primary-accent);
+  color: white;
+}
+
+.primary:hover:not(:disabled) {
+  background-color: #4f46e5;
+}
+
+.primary:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+.secondary {
+  background-color: var(--secondary-accent);
+  color: var(--primary-accent);
+  border: 1px solid var(--primary-accent);
+}
+
+.secondary:hover:not(:disabled) {
+  background-color: #d1d5db; /* Light grey */
+}
+
+.secondary:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+.button:disabled {
+    background-color: #d1d5db; /* Grey out disabled */
+    color: #6b7280;
+    cursor: not-allowed;
+}
